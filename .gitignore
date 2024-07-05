@@ -3,3 +3,6 @@
 
 # added the node_modules folder to the gitignore
 node_modules
+
+# added the .http file to the gitignore
+*.http
