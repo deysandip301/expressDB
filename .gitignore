@@ -1,0 +1,5 @@
+# added the env file to the gitignore
+.env
+
+# added the node_modules folder to the gitignore
+node_modules

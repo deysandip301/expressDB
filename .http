@@ -1,0 +1,9 @@
+POST http://localhost:8086/api/products
+Content-Type: application/json
+
+{
+    "product_name": "Example Product 2",
+    "product_price": "100",
+    "isInStock": true,
+    "category": "Electronics"
+}
