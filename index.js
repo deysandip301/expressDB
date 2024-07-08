@@ -4,10 +4,13 @@ const mongoose = require("mongoose");
 // const {getMongoDBClientEncryption} = require("mongodb/src/deps");
 const app = express();
 const productRoutes = require("./routes/ProductRoutes");
-
+const userRoutes = require("./routes/UserRoutes");
 
 app.use(express.json());
 app.use('/api/products', productRoutes);
+app.use('/api/users', userRoutes);
+
+
 mongoose
     .connect(
         process.env.MONGODB_URL
